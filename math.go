@@ -5,9 +5,25 @@ import (
 )
 
 func main() {
-	fmt.Println(soma(10, 10))
+	fmt.Println(Sum(10, 10))
 }
 
-func soma(a int, b int) int {
+func Sum(a int, b int) int {
 	return a + b
+}
+
+func SumX(a int, b int) int {
+	return a + b + a
+}
+
+func Sub(a int, b int) int {
+	return a - b
+}
+
+func Times(a int, b int) int {
+	return a * b
+}
+
+func Div(a int, b int) int {
+	return a / b
 }
